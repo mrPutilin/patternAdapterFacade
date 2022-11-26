@@ -28,7 +28,7 @@ public class Main {
         Filter filter = new Filter(scanner.nextInt());
 
 
-        System.out.println("Отфильтрованный список" + filter.filterOut(elements, logger));
+        System.out.println("Отфильтрованный список" + filter.filterOut(elements));
 
         logger.log("Завершаем работу");
 

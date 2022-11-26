@@ -10,7 +10,8 @@ public class Filter {
         this.treshold = treshold;
     }
 
-    public List<Integer> filterOut(List<Integer> source, Logger logger) {
+    public List<Integer> filterOut(List<Integer> source) {
+        Logger logger = new Logger();
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < source.size(); i++) {
             if (source.get(i) < treshold) {
