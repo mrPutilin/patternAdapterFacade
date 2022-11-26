@@ -5,5 +5,9 @@ Test2.java
 /out/
 core/
 test/
-builder
-singleton
+pattern/adapter/
+pattern/builder/
+pattern/facade/
+pattern/singleton/
+
+
