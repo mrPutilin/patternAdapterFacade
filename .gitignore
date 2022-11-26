@@ -5,5 +5,5 @@ Test2.java
 /out/
 core/
 test/
-builder/
-singleton/
+builder
+singleton
